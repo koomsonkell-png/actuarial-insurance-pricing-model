@@ -1,45 +1,32 @@
-# Actuarial Insurance Pricing Model in Python
+# Actuarial Insurance Pricing Model With Python
 
-## Overview
+## 📌 Project Overview
+This project develops a basic actuarial model to estimate insurance premiums based on risk and mortality assumptions.
 
-This project applies actuarial pricing principles to model and evaluate several life insurance products using Python.
+## 🎯 Objective
+To understand how insurance companies determine premiums using mortality and discounting principles.
 
-The products considered are:
+## 🧠 Methodology
+- Survival and mortality concepts
+- Python-based computations
 
-- Whole Life Insurance
-- Term Assurance
-- Pure Endowment
-- Endowment Assurance
+## 📊 Key Outputs
+- Estimated insurance premiums and variability
+- Visual analysis of insurance risk behavior for diffrenet inputs
 
-The project calculates actuarial present values (APVs), variance, and standard deviation under specified mortality and interest rate assumptions.
+## 🛠 Tools Used
+Python, NumPy, Matplotlib
 
----
+## 📁 Project Structure
+- graphs/ → visual outputs
+- notebook/ → analysis and calculations
 
-## Objectives
+## 🚀 Key Insight
+Individuals with higher risk exposure are associated with higher expected premiums due to increased probability of claims.
 
-- Implement actuarial pricing models in Python.
-- Calculate APVs for different life insurance products.
-- Analyze the effect of mortality assumptions on insurance values.
-- Perform sensitivity analysis.
-- Visualize actuarial results.
-
----
-
-## Tools Used
-
-- Python
-- NumPy
-- Matplotlib
-
----
-
-## Key Result
-
-The graph below illustrates how different insurance products respond to changes in mortality assumptions.
+The graph below illustrates how different insurance products respond to changes in mortality assumptions, thus, Products that pay on death generally increase in value as mortality rates rise, while survival-based products such as Pure Endowments decrease in value.
 
 ![Mortality Sensitivity](images/mortality_sensitivity.png)
-
-Products that pay on death generally increase in value as mortality rates rise, while survival-based products such as Pure Endowments decrease in value.
 
 ---
 
